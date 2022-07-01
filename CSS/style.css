@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+/*Favours part starts here*/
+.section-four{
+    background-color: white;
+}
+
+.section-four .part-one{
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section-four .part-two{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+  
+}
+
+.section-four .part-two .people{
+    background: hsl(0, 0%, 98%);
+    width:80%;
+    height: 100%;
+    margin: 10px;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.section-four .part-two .people:hover{
+    box-shadow: 0 5px 5px rgba(1 1 1 /15%);
+}
+
+.section-four .part-two .people .info{
+    text-align: center;
+    font-size: 13px;
+    /* width: 350px; */
+}
+ 
+.section-four .part-two .people .img{
+   height: 60px;
+   width: 50px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   object-fit: fill;
+   margin-top: -55px;
+}
+
+.section-four .part-two .people h4{
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    color: #242D52;
+}
+.people{
+    background-color: hsl(227, 12%, 61%);
+}
+.section-four button{
+    background: hsl(12, 88%, 59%);
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-weight: 400;
+}
+
+.owl-prev, .owl-next{
+    display: none !important;
+}
+/*Favours part ends here*/
+
+/*Franklin parts starts here*/
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: hsl(227, 12%, 61%);
+    padding-top: 1.5em;
+}
+.nav-links{
+    display: flex;
+   width: 100%;
+    justify-content: space-around;
+}
+.nav-links li{
+    list-style: none;
+    padding: 12px;
+}
+.nav-links li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(226, 8%, 40%);
+    font-size: 15px;
+
+}
+.nav-links li a:hover{
+    color: hsl(227, 18%, 90%);
+}
+.nav_btn button{
+    background-color: hsl(12, 88%, 59%);
+    padding: 12px 20px;
+    border: none;
+    color: hsl(0, 7%, 92%);
+    border-radius: 6pc;
+    font-weight: bold;
+    outline: none;
+}
+.nav_btn button:hover{
+    opacity: .9;
+    box-shadow: 0 10px 15px rgba(65, 65, 65, 0.61);
+}
+.ham-buger{
+    display: none;
+}
+header{
+    background:  hsl(0, 0%, 98%);
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    
+}
+section .hero-section{
+/*    font-family: 'Lobster', cursive;*/
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 1.5em;
+    background:  hsl(0, 0%, 98%);
+    height: 100%;
+}
+.hero-section img{
+    width: 80%;
+    margin-top: 5em;
+
+
+}
+
+.hero-p{
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    color:  hsl(227, 12%, 61%);
+    margin: .3em;
+
+}
+.hero-heading{
+  padding-top: 3em;
+    font-size: 2.5em;
+    width: 350px;
+    font-weight: 700;
+    color:#242D52;
+    padding-bottom: 1em;
+    
+}
+.hero-left{
+    padding: 1.5em;
+}
+.hero-section{
+ text-align: left;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.7em;
+}
+.hero-button{
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background-color:  hsl(12, 88%, 59%) ;
+    color: whitesmoke;
+    font-size: .8em;
+    font-weight: bold;
+    border-radius: 5pc;
+    margin: .5em;
+    cursor:pointer;
+}
+.hero-button:hover{
+    opacity: .9;
+    box-shadow: 0 10px 15px rgba(65, 65, 65, 0.61);
+}
+
+.closeNav{
+    display: none;
+}
+@media only screen and (max-width:768px) and (min-width:481px) {
+   
+    nav {
+        position: relative;
+        justify-content: space-between;
+        padding: 1.5em;
+        margin-top: 10px;
+    }
+    header{
+        width: 100%;
+    }
+
+    .hero-container{
+        margin-top: 0;
+    }
+   
+    .nav_btn button{
+        display: none;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .nav-links{
+        position: absolute;
+        margin: 0 auto;
+        /* left: 0; */
+        text-align: center;
+        width: 50%;
+        border-radius: 10px;
+        padding: 1rem;
+        right: 0;
+        transform: translate(-50%, -50%);
+        background-color: rgba(12, 11, 11, 0.932);
+        flex-direction: column;
+        z-index: 1;
+        top: -200px;
+        transition: .5s;
+        /* padding:5%;
+        background-color: rgba(12, 11, 11, 0.932);
+        color: white;
+        width: 50%;
+        margin-top: 5%;
+        border-radius: 10px;
+        position: absolute;
+        right: 70px;
+        top: 50%;
+        flex-direction: column;
+        transform: translateY(-390px);
+        text-align: center;
+        transition: transform 1s ease-in; */
+
+    }
+
+    .ham-buger{
+        display: block;
+        cursor: pointer;
+    }
+    .nav-links li a{
+        color: rgba(211, 207, 207, 0.918);
+    }
+ 
+    .hero-container{
+        
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .hero-p{
+        width: 450px;
+        letter-spacing: 1px;
+        padding: 14px;
+        margin: 0 auto;
+
+    }
+    .hero-heading{
+        width: 400px;
+        margin: 0 auto;
+        padding-top: 0em;
+    }
+    .hero-img{
+        margin-bottom: .9rem;
+        margin-top: -3em;
+        
+    }
+  
+    .section-four .part-two .people{
+        background: hsl(0, 0%, 98%);
+        width:100%;
+        height: 100%;
+    
+        padding: 35px;
+      
+        flex-direction: column;
+        font-weight: 500;
+      
+    }
+    
+    .section-four .part-two .people .info{
+        font-size: 11px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:481px) and (min-width:320px) {
+   
+    nav {
+        position: relative;
+        justify-content: space-between;
+        padding: 1em;
+        
+    }
+
+   
+    .nav_btn button{
+        display: none;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .nav-links{
+        position: absolute;
+        margin: 0 auto;
+        /* left: 0; */
+        text-align: center;
+        width: 50%;
+        border-radius: 10px;
+        padding: 1rem;
+        right: 0;
+        transform: translate(-50%, -50%);
+        background-color: rgba(12, 11, 11, 0.932);
+        flex-direction: column;
+        z-index: 1;
+        top: -200px;
+        transition: .5s;
+        /* padding:5%;
+        background-color: rgba(12, 11, 11, 0.932);
+        color: white;
+        width: 50%;
+        margin-top: 5%;
+        border-radius: 10px;
+        position: absolute;
+        right: 70px;
+        top: 50%;
+        flex-direction: column;
+        transform: translateY(-390px);
+        text-align: center;
+        transition: transform 1s ease-in; */
+
+    }
+    .ham-buger{
+        display: block;
+        cursor: pointer;
+    }
+    .nav-links li a{
+        color: rgba(211, 207, 207, 0.918);
+    }
+ 
+    .hero-container{
+        
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .hero-p{
+        width: 300px;
+        letter-spacing: 1px;
+        padding: 14px;
+        margin: 0 auto;
+
+    }
+    .hero-heading{
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 0em;
+    }
+    .hero-img{
+        margin-bottom: .9rem;
+        margin-top: -3em;
+        
+    }
+  
+    .section-four .part-two .people{
+        background: hsl(0, 0%, 98%);
+        width:100%;
+        height: 100%;
+     
+    
+        padding: 35px;
+      
+        flex-direction: column;
+        font-weight: 500;
+      
+    }
+    
+    .section-four .part-two .people .info{
+        font-size: 11px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.active{
+    transform: translateY(20px);
+    transition: transform .5s ease-in;
+}
+/* .main-drop{
+    top:-20px;
+    transition: transform .5s ease-in-out;
+} */
+/* Franklin CSS ends here*/
