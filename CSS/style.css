@@ -425,3 +425,139 @@ section .hero-section{
     transition: transform .5s ease-in-out;
 } */
 /* Franklin CSS ends here*/
+
+
+
+/* sthink styled here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x :hidden;
+    width: 100%;
+}
+
+ .sec_four{
+    background: #ff4213;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.p_two {
+    display: none;
+}
+
+.color-overlay {
+    background: url('../images/mysec-bg.svg') no-repeat ;
+    background-size: 24% auto;
+    background-position: 16% 16%;
+    position : absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+ }
+
+ .color-over_sec {
+    background: url('../images/mysec-bg.svg') no-repeat ;
+    background-size: 24% auto;
+    background-position: 116% 108%;
+    position : absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+ }
+
+.all {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height : auto;
+    width: 80%;
+    z-index: 50;
+    margin: auto;
+    padding: 24px 0;
+}
+
+p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+button {
+    color: #ff6308;
+    padding: 8px 16px;
+    background-color: white;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* @media  (min-width : 375px) {
+
+} */
+
+@media (max-width: 768px){
+    .all {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height : auto;
+        width: 80%;
+        z-index: 50;
+        margin: auto;
+    }
+
+    .p_one {
+        display: none;
+    }
+
+    .p_two {
+        display: flex;
+        width: 80%;
+        margin: 12px auto;
+        font-size: 1.2em;
+    }
+
+
+    .sec_four{
+        width: 100%;
+        height: 220px;
+        position: relative;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+
+    .color-overlay {
+        background: url('../images/mysec-bg.svg') no-repeat ;
+        background-size: 55% auto;
+        background-position: -100% -5%;
+        position : absolute;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+     }
+
+    .color-over_sec {
+        display: none;
+    }
+
+    button {
+        font-weight: 600;
+    }
+
+}
